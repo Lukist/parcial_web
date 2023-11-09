@@ -1,0 +1,108 @@
+
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-size: 1.7em;
+	text-align: center;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	animation: blackWhite 2s;
+}
+
+.container {
+	margin-top: 3em;
+	letter-spacing: 0.15em;
+	animation: blackWhite 2s;
+}
+
+#name-input {
+	background-color: transparent;
+	margin-left: 0.2em;
+	outline: none;
+	border: hidden;
+	border: 0.13em solid #fff;
+	padding: 0.2em 0.2em;
+	color: #fff;
+	text-align: center;
+	font-size: 0.6em;
+	font-weight: bold;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	letter-spacing: 0.2em;
+	animation: blackWhiteLines 2s;
+}
+
+.title {
+	animation: blackWhite 2s;
+}
+
+
+.btn {
+	font-size: 0.85em;
+	margin-top: 1.5em;
+	background-color: transparent;
+	color: #fff;
+	border: 0.1em solid #fff;
+	padding: 0.1em 1em;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	letter-spacing: 0.15em;
+	animation: blackWhiteLines 2s;
+}
+
+.btn:hover {
+	color: #aaa;
+	border: 0.1em solid #ccc;
+}
+
+.story {
+	margin: 0 1em;
+	animation: blackWhite 2s;
+}
+
+.label-input {
+	animation: blackWhite 2s;
+}
+
+.radios {
+	margin-top: 4em;
+	animation: blackWhite 2s;
+}
+
+.accion {
+	color: #AD2831;
+}
+
+.evasion {
+	color: #1C448E;
+}
+
+a:link, a:visited {
+    color: #4059AD; /* Normal link color */
+    text-decoration: none; /* Remove underlines from links */
+    animation: blackWhite 2s; /* Apply the animation */
+}
+
+
+
+@keyframes blackWhite {
+	0% {
+		color: #000;
+		
+	}
+	100% {
+		color: #fff;
+
+	}
+}
+
+@keyframes blackWhiteLines {
+	0% {
+		color: #000;
+		border: 0.1em solid #000;
+	}
+
+	100% {
+		color: #fff;
+		border: 0.1em solid #fff;
+	}
+}
+
